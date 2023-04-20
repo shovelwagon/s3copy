@@ -4,7 +4,7 @@
 
 This docker container allows one to copy a source directory to a remote s3 bucket with options.
 
-### Usage:
+#### Usage:
 ```
 docker run -it \
     -v "/src/of/data/src:/tmp/src" \
