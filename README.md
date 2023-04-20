@@ -1,5 +1,10 @@
 # s3copy
+![build](https://github.com/shovelwagon/s3copy/actions/workflows/build.yml/badge.svg) 
 
+
+This docker container allows one to copy a source directory to a remote s3 bucket with options.
+
+### Usage:
 ```
 docker run -it \
     -v "/src/of/data/src:/tmp/src" \
